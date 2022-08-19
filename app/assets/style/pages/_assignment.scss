@@ -1,0 +1,76 @@
+.navbar-brand{
+    font-size: 24px;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 9px;
+    vertical-align: middle;
+    font-family: 'Material Icons';
+    content: "expand_more";
+    color: $success;
+    border: none;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.btn-primary{
+    background: transparent;
+    color: $primary;
+    border: none;
+    &:hover{
+        background: transparent;
+        color: $success;
+    }
+    &:focus{
+        background: $success;
+        color: #FFF;
+    }
+}
+
+.assignment_list {
+    .list-group-item {
+        padding: 0.5rem 0.75rem;
+    }
+    .row{
+        margin-left: -12px;
+        margin-right: -12px;  
+        > *{
+            padding-left: 12px;
+            padding-right: 12px;  
+        }
+    }
+}
+
+.comments{
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.ck-content{
+    height: 287.72px;
+}
+
+.ck.ck-editor__main>.ck-editor__editable:not(.ck-focused) {
+    
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-color: $gray-400 !important;
+}
+
+.ck-rounded-corners .ck.ck-editor__top .ck-sticky-panel .ck-toolbar, .ck.ck-editor__top .ck-sticky-panel .ck-toolbar.ck-rounded-corners {
+    border-left: none;
+    border-right: none;
+    border-color: $gray-400 !important;
+}
+
+.comment-editor{
+    display: none;
+    position: relative;
+    &-button{
+        position: absolute;
+        right: 24px;
+        bottom: 16px
+    }
+}
