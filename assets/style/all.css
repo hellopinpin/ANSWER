@@ -5282,7 +5282,7 @@ fieldset:disabled .btn {
   color: #212529;
   text-decoration: none;
   background-color: #fff;
-  border: 1px solid #dee2e6;
+  border: 1px solid #198754;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -5300,15 +5300,15 @@ fieldset:disabled .btn {
 
 .page-link:hover {
   z-index: 2;
-  color: #198754;
-  background-color: #e9ecef;
-  border-color: #dee2e6;
+  color: #fff;
+  background-color: #198754;
+  border-color: #198754;
 }
 
 .page-link:focus {
   z-index: 3;
-  color: #198754;
-  background-color: #e9ecef;
+  color: #fff;
+  background-color: #198754;
   outline: 0;
   -webkit-box-shadow: 0 0 0 0.25rem rgba(173, 181, 189, 0.25);
           box-shadow: 0 0 0 0.25rem rgba(173, 181, 189, 0.25);
@@ -5321,8 +5321,8 @@ fieldset:disabled .btn {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #adb5bd;
-  border-color: #adb5bd;
+  background-color: #198754;
+  border-color: #198754;
 }
 
 .page-item.disabled .page-link {
@@ -5333,7 +5333,7 @@ fieldset:disabled .btn {
 }
 
 .page-link {
-  padding: 0.375rem 0.75rem;
+  padding: 0.1875rem 0rem;
 }
 
 .page-item:first-child .page-link {
@@ -12575,6 +12575,15 @@ fieldset {
 .admin-expand {
   display: none;
   padding-top: 32px;
+}
+
+.admin-pagination > .page-item {
+  width: 32px;
+  text-align: center;
+}
+
+.admin-pagination > .page-item > .text-success:hover {
+  color: #fff !important;
 }
 
 /*# sourceMappingURL=all.css.map */
