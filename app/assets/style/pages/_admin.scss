@@ -50,3 +50,11 @@
     display: none;
     padding-top: 32px;
 }
+
+.admin-pagination > .page-item{
+    width: 32px;
+    text-align: center;
+    > .text-success:hover{
+        color: $white !important;
+    }
+}
