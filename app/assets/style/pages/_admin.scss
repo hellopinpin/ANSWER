@@ -7,9 +7,7 @@
     padding-right: 8px;
 }
 
-.admin-table-id::after{
-    content:"arrow_downward";
-    font-family: 'Material Icons';
+.material-icons-arrow_downward{
     font-size: 12px;
     color: $success;
     vertical-align: middle;

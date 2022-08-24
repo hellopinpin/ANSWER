@@ -24,7 +24,11 @@
     }
 }
 
-.w-23{
-    max-width: 296px;
-    width: 23.125%;
+.nav-aside{
+    width: 296px;
+    position: fixed;
+}
+
+main{
+    margin-left: 296px;
 }
