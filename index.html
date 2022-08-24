@@ -15,8 +15,8 @@
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
-<body class="d-flex">
-  <div class="d-flex flex-column justify-content-between min-vh-100 w-23 ps-4 bg-light py-4">
+<body>
+  <div class="nav-aside d-flex flex-column justify-content-between min-vh-100 ps-4 bg-light py-4">
     <div>
       <a href="index.html"><img src="./assets/images/logo-ANSWER.svg" alt="logo-ANSWER"></a>
       <ul class="nav flex-column mt-4">
@@ -67,8 +67,9 @@
       </div>
     </div>
   </div>
-  <div class="container">
-    <div class="row g-0">
+  <main class="vh-100">
+    <div class="container h-100">
+      <div class="row g-0">
   <div class="col">
     <nav class="navbar navbar-expand-lg bg-light justify-content-between bg-transparent ">
       <div class="d-flex align-items-end">
@@ -99,7 +100,7 @@
   </div>
 </div>
 <!-------- main -------->
-<main class="row g-0 pb-4">
+<div class="row g-0 pb-4">
   <!-- 清單區塊 -->  
   <div class="col-4">
     <!-- 篩選 -->
@@ -115,43 +116,43 @@
     
     <div class="list-group assignment_list" id="v-pills-tab" role="tablist" aria-orientation="vertical">
       <button href="#" class="list-group-item list-group-item-action active" id="v-pills-1-tab" data-bs-toggle="pill" data-bs-target="#v-pills-1" type="button" role="tab" aria-controls="v-pills-1" aria-selected="true">
-        <div class="row justify-content-between mb-1">
-          <div class="col-8"><p class="fs-sm">Chapter Assignment 2</p></div>
-          <div class="col-4"><p class="fs-sm text-end">4 hrs ago</p></div>
+        <div class="d-flex justify-content-between mb-1">
+            <p class="fs-sm">Chapter Assignment 2</p>
+            <p class="fs-sm text-end">4 hrs ago</p>
         </div>
-        <div class="row justify-content-between align-items-center">
-          <div class="col-8"><h2 class="fs-6 fw-bold">Please check this file…</h2></div>
-          <div class="col-4"><p class="fs-sm text-muted text-end">Emily Wang</p></div>
+        <div class="d-flex justify-content-between align-items-center">
+            <h2 class="fs-6 fw-bold">Please check this file…</h2>
+            <p class="fs-sm text-muted text-end">Emily Wang</p>
         </div>
       </button>
       <button href="#" class="list-group-item list-group-item-action" id="v-pills-2-tab" data-bs-toggle="pill" data-bs-target="#v-pills-2" type="button" role="tab" aria-controls="v-pills-2" aria-selected="true">
-        <div class="row justify-content-between mb-1">
-          <div class="col-8"><p class="fs-sm">Chapter Assignment 1</p></div>
-          <div class="col-4"><p class="fs-sm text-end">12 hrs ago</p></div>
+        <div class="d-flex justify-content-between mb-1">
+            <p class="fs-sm">Chapter Assignment 1</p>
+            <p class="fs-sm text-end">12 hrs ago</p>
         </div>
-        <div class="row justify-content-between align-items-center">
-          <div class="col-8"><h2 class="fs-6 fw-bold">My Homework</h2></div>
-          <div class="col-4"><p class="fs-sm text-muted text-end">David Xu</p></div>
+        <div class="d-flex justify-content-between align-items-center">
+            <h2 class="fs-6 fw-bold">My Homework</h2>
+            <p class="fs-sm text-muted text-end">David Xu</p>
         </div>
       </button>
       <button href="#" class="list-group-item list-group-item-action" id="v-pills-3-tab" data-bs-toggle="pill" data-bs-target="#v-pills-3" type="button" role="tab" aria-controls="v-pills-3" aria-selected="true">
-        <div class="row justify-content-between mb-1">
-          <div class="col-8"><p class="fs-sm">Final Assignment</p></div>
-          <div class="col-4"><p class="fs-sm text-end">18 hrs ago</p></div>
+        <div class="d-flex justify-content-between mb-1">
+            <p class="fs-sm">Final Assignment</p>
+            <p class="fs-sm text-end">18 hrs ago</p>
         </div>
-        <div class="row justify-content-between align-items-center">
-          <div class="col-8"><h2 class="fs-6 fw-bold">Have a problem with this…</h2></div>
-          <div class="col-4"><p class="fs-sm text-muted text-end">Tony Wei</p></div>
+        <div class="d-flex justify-content-between align-items-center">
+            <h2 class="fs-6 fw-bold">Have a problem with this…</h2>
+            <p class="fs-sm text-muted text-end">Tony Wei</p>
         </div>
       </button>
       <button href="#" class="list-group-item list-group-item-action" id="v-pills-4-tab" data-bs-toggle="pill" data-bs-target="#v-pills-4" type="button" role="tab" aria-controls="v-pills-4" aria-selected="true">
-        <div class="row justify-content-between mb-1">
-          <div class="col-8"><p class="fs-sm">Final Assignment</p></div>
-          <div class="col-4"><p class="fs-sm text-end">19 hrs ago</p></div>
+        <div class="d-flex justify-content-between mb-1">
+            <p class="fs-sm">Final Assignment</p>
+            <p class="fs-sm text-end">19 hrs ago</p>
         </div>
-        <div class="row justify-content-between align-items-center">
-          <div class="col-8"><h2 class="fs-6 fw-bold">Did I do it right?</h2></div>
-          <div class="col-4"><p class="fs-sm text-muted text-end">Christina Lin</p></div>
+        <div class="d-flex justify-content-between align-items-center">
+            <h2 class="fs-6 fw-bold">Did I do it right?</h2>
+            <p class="fs-sm text-muted text-end">Christina Lin</p>
         </div>
       </button>
     </div>
@@ -183,7 +184,7 @@
                   <p class="fs-sm text-muted">10:38 AM (4 hours ago)</p>
                 </div>
                 <p class="card-text fs-s pb-3">
-                  Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <code >div</code> is bigger than the height of the <code>img</code> ? There is a gap below the image, but it doesn’t seems to be a padding/margin.<br>
+                  Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <code class="bg-secondary">div</code> is bigger than the height of the <code class="bg-secondary">img</code> ? There is a gap below the image, but it doesn’t seems to be a padding/margin.<br>
                   What is the gap or extra space below image?
                 </p>
                 <a href="#" class="btn btn-secondary border fw-bold" download="./assets/HW-2-David.zip"><span class="material-icons pe-2">attach_file</span>HW-2-David.zip</a>
@@ -210,8 +211,8 @@
                   Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.<br><br>
                   You can:<br>
                   <ul>
-                    <li>adjust the <code>vertical-align</code> of the image to position it elsewhere (e.g. the <code>middle</code> ) or</li>
-                    <li>change the <code>display</code> so it isn’t inline.</li>
+                    <li>adjust the <code class="bg-secondary">vertical-align</code> of the image to position it elsewhere (e.g. the <code class="bg-secondary">middle</code> ) or</li>
+                    <li>change the <code class="bg-secondary">display</code> so it isn’t inline.</li>
                   </ul>
                 </p>
               </div>      
@@ -259,7 +260,7 @@
                   <p class="fs-sm text-muted">10:38 AM (4 hours ago)</p>
                 </div>
                 <p class="card-text fs-s pb-3">
-                  Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <code >div</code> is bigger than the height of the <code>img</code> ? There is a gap below the image, but it doesn’t seems to be a padding/margin.<br>
+                  Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <code >div</code> is bigger than the height of the <code class="bg-secondary">img</code> ? There is a gap below the image, but it doesn’t seems to be a padding/margin.<br>
                   What is the gap or extra space below image?
                 </p>
                 <a href="#" class="btn btn-secondary border fw-bold" download="./assets/HW-2-David.zip"><span class="material-icons pe-2">attach_file</span>HW-2-David.zip</a>
@@ -286,8 +287,8 @@
                   Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.<br><br>
                   You can:<br>
                   <ul>
-                    <li>adjust the <code>vertical-align</code> of the image to position it elsewhere (e.g. the <code>middle</code> ) or</li>
-                    <li>change the <code>display</code> so it isn’t inline.</li>
+                    <li>adjust the <code class="bg-secondary">vertical-align</code> of the image to position it elsewhere (e.g. the <code class="bg-secondary">middle</code> ) or</li>
+                    <li>change the <code class="bg-secondary">display</code> so it isn’t inline.</li>
                   </ul>
                 </p>
               </div>      
@@ -334,7 +335,7 @@
                   <p class="fs-sm text-muted">10:38 AM (4 hours ago)</p>
                 </div>
                 <p class="card-text fs-s pb-3">
-                  Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <code >div</code> is bigger than the height of the <code>img</code> ? There is a gap below the image, but it doesn’t seems to be a padding/margin.<br>
+                  Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <code >div</code> is bigger than the height of the <code class="bg-secondary">img</code> ? There is a gap below the image, but it doesn’t seems to be a padding/margin.<br>
                   What is the gap or extra space below image?
                 </p>
                 <a href="#" class="btn btn-secondary border fw-bold" download="./assets/HW-2-David.zip"><span class="material-icons pe-2">attach_file</span>HW-2-David.zip</a>
@@ -361,8 +362,8 @@
                   Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.<br><br>
                   You can:<br>
                   <ul>
-                    <li>adjust the <code>vertical-align</code> of the image to position it elsewhere (e.g. the <code>middle</code> ) or</li>
-                    <li>change the <code>display</code> so it isn’t inline.</li>
+                    <li>adjust the <code class="bg-secondary">vertical-align</code> of the image to position it elsewhere (e.g. the <code class="bg-secondary">middle</code> ) or</li>
+                    <li>change the <code class="bg-secondary">display</code> so it isn’t inline.</li>
                   </ul>
                 </p>
               </div>      
@@ -409,7 +410,7 @@
                   <p class="fs-sm text-muted">10:38 AM (4 hours ago)</p>
                 </div>
                 <p class="card-text fs-s pb-3">
-                  Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <code >div</code> is bigger than the height of the <code>img</code> ? There is a gap below the image, but it doesn’t seems to be a padding/margin.<br>
+                  Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <code >div</code> is bigger than the height of the <code class="bg-secondary">img</code> ? There is a gap below the image, but it doesn’t seems to be a padding/margin.<br>
                   What is the gap or extra space below image?
                 </p>
                 <a href="#" class="btn btn-secondary border fw-bold" download="./assets/HW-2-David.zip"><span class="material-icons pe-2">attach_file</span>HW-2-David.zip</a>
@@ -436,8 +437,8 @@
                   Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.<br><br>
                   You can:<br>
                   <ul>
-                    <li>adjust the <code>vertical-align</code> of the image to position it elsewhere (e.g. the <code>middle</code> ) or</li>
-                    <li>change the <code>display</code> so it isn’t inline.</li>
+                    <li>adjust the <code class="bg-secondary">vertical-align</code> of the image to position it elsewhere (e.g. the <code class="bg-secondary">middle</code> ) or</li>
+                    <li>change the <code class="bg-secondary">display</code> so it isn’t inline.</li>
                   </ul>
                 </p>
               </div>      
@@ -464,8 +465,9 @@
     </div>
   </div>      
   
-</main>
-  </div>
+</div>
+    </div>
+  </main>
   <script src="./assets/js/vendors.js"></script>
   <script src="https://cdn.ckeditor.com/ckeditor5/35.0.1/classic/ckeditor.js"></script>
   <script src="./assets/js/all.js"></script>

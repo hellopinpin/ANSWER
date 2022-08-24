@@ -12311,10 +12311,8 @@ code {
   color: #198754;
 }
 
-fieldset {
-  border-bottom: 1px solid #ced4da;
-  padding-bottom: 1.5rem;
-  margin-bottom: 1.5rem;
+hr {
+  margin: 24.5px 0;
 }
 
 .material-icons {
@@ -12439,9 +12437,13 @@ fieldset {
   padding-left: 1rem;
 }
 
-.w-23 {
-  max-width: 296px;
-  width: 23.125%;
+.nav-aside {
+  width: 296px;
+  position: fixed;
+}
+
+main {
+  margin-left: 296px;
 }
 
 .navbar-brand {
@@ -12532,13 +12534,12 @@ fieldset {
   padding-right: 8px;
 }
 
-.admin-table-id::after {
-  content: "arrow_downward";
-  font-family: 'Material Icons';
-  font-size: 12px;
+.material-icons-arrow_downward {
+  font-size: 18px;
   color: #198754;
-  vertical-align: middle;
+  vertical-align: text-top;
   padding-left: 7px;
+  text-decoration: none;
 }
 
 .btn-verification {
