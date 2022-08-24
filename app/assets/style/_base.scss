@@ -17,8 +17,11 @@ code{
   color: $success;
 }
 
-fieldset{
-  // border-bottom: 1px solid $gray-400;
-  padding-bottom: $spacer*1.5;
-  margin-bottom: $spacer*1.5;
+// fieldset{
+//   padding-top: $spacer*0.5 ;
+//   padding-bottom: $spacer*1.5;
+// }
+
+hr{
+  margin: 24.5px 0;
 }
